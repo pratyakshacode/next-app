@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from "react";
 
-export default function() {
+export default function Page() {
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')

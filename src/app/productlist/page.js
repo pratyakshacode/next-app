@@ -30,7 +30,7 @@ const Page = () => {
                 <h3>Description : {item.description}</h3>
                 <h3>Price : {item.price}</h3>
             </div>
-        }): <Image src={"/loader.gif"} width={200} height={200}/>
+        }): <Image src={"/loader.gif"} width={200} height={200} alt='Loader'/>
       }
     </div>
   )

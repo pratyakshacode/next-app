@@ -1,5 +1,5 @@
 'use client'
-export default function ({params}) {
+export default function Page ({params}) {
 
     const updateDetails = (e)=> {
         e.preventDefault();

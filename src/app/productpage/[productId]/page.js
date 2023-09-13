@@ -40,7 +40,7 @@ const Page = (props) => {
 
   useEffect(()=> {
     getData();
-  },[])
+  })
   
   const [name, setName] = useState('');
   const [category, setCategory] = useState('');
